@@ -1,5 +1,7 @@
-public enum Genero {
+package com.Stefanini.desafio.entity;
 
+public enum Genero {
+    
     Masculino("masculino"),
     Feminino("feminino");
 
@@ -12,5 +14,4 @@ public enum Genero {
     public String generoGet(){
         return genero;
     }
-
 }
